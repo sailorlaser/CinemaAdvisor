@@ -16,8 +16,8 @@ namespace TurtleGame
 
             GraphicsWindow.BrushColor = "Red";
             var eat = Shapes.AddRectangle(10, 10);
-            int x = 220;
-            int y = 220;
+            int x = 200;
+            int y = 200;
             Shapes.Move(eat,x,y);
 
             Random rand = new Random();
